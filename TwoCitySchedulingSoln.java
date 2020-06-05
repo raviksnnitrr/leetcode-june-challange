@@ -1,4 +1,4 @@
-class Solution {
+class TwoCitySchedulingSoln {
     public int twoCitySchedCost(int[][] costs) {
         int len=costs.length;
         int total=0;
