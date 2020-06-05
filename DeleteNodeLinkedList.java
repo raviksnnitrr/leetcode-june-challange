@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class DeleteNodeLinkedList {
     public void deleteNode(ListNode node) {
         node.val=node.next.val;
         node.next=node.next.next;
