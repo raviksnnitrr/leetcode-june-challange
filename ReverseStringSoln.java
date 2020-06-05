@@ -1,4 +1,4 @@
-class Solution {
+class ReverseStringSoln {
     public void reverseString(char[] s) {
         int l=0,h=s.length-1;
         while(l<h){
